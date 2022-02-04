@@ -4,6 +4,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        // write your code here
         Scanner scn = new Scanner(System.in);
         int x = scn.nextInt();
         int n = scn.nextInt();
@@ -15,9 +16,12 @@ public class Main {
         if(n == 0){
             return 1;
         }
-        int recAns = power(x, n-1);
-        int myAns = x * recAns;
-        return myAns;
+        int recAns = power(x, n/2);
+        recAns *= recAns;
+        if(n%2 != 0){
+            recAns *= x; 
+        }
+        return recAns;
     }
 
 }
