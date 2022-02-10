@@ -35,7 +35,7 @@ public class Main {
                 myAns.add(newChar + x);
             }
         }
-
+        return myAns;
     }
 
 }
