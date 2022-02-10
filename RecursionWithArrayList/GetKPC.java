@@ -25,7 +25,7 @@ public class Main {
         ArrayList<String> myAns = new ArrayList<>();
 
 
-        int idx = ch - '0' // converting string to integer
+        int idx = ch - '0'; // converting string to integer
         
         String currCode = codes[idx];
 
