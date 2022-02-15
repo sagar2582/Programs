@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
-        String s = next();
-        printEncodings(s, "")
+        String s = scn.next();
+        printEncodings(s, "");
 
     }
 
